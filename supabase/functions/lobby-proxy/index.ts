@@ -1,5 +1,5 @@
 import { createClient } from "npm:@supabase/supabase-js@2.45.4";
-// redeploy trigger
+// redeploy trigger 2026-11-25
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",

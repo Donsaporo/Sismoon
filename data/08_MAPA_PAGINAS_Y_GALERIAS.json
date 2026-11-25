@@ -1,0 +1,1285 @@
+{
+  "version": "2.0",
+  "date": "2026-10-17",
+  "purpose": "Ampliación del proyecto existente; no cambiar datos comerciales del maestro",
+  "routes": [
+    "/",
+    "/alojamientos",
+    "/habitaciones",
+    "/habitaciones/sm-1",
+    "/habitaciones/sm-2",
+    "/habitaciones/sm-3",
+    "/habitaciones/sm-5",
+    "/habitaciones/sm-6",
+    "/habitaciones/sm-7",
+    "/habitaciones/sm-8",
+    "/habitaciones/sm-9",
+    "/habitaciones/sm-10",
+    "/habitaciones/sm-11",
+    "/villas",
+    "/villas/villa-1",
+    "/villas/villa-2",
+    "/villas/villa-3",
+    "/villas/villa-4",
+    "/villas/villa-5",
+    "/glamping",
+    "/experiencias",
+    "/isla-grande",
+    "/galeria",
+    "/contacto"
+  ],
+  "gallery": {
+    "route": "/galeria",
+    "totalPhotos": 80,
+    "pageSize": 16,
+    "groups": [
+      {
+        "label": "Áreas comunes",
+        "route": "/experiencias",
+        "count": 15,
+        "assetIds": [
+          "sm-001",
+          "sm-002",
+          "sm-003",
+          "sm-004",
+          "sm-005",
+          "sm-006",
+          "sm-007",
+          "sm-008",
+          "sm-009",
+          "sm-010",
+          "sm-011",
+          "sm-012",
+          "sm-013",
+          "sm-014",
+          "sm-015"
+        ]
+      },
+      {
+        "label": "Habitaciones",
+        "route": "/habitaciones",
+        "count": 8,
+        "assetIds": [
+          "sm-018",
+          "sm-019",
+          "sm-020",
+          "sm-021",
+          "sm-022",
+          "sm-023",
+          "sm-024",
+          "sm-025"
+        ]
+      },
+      {
+        "label": "Glamping",
+        "route": "/glamping",
+        "count": 2,
+        "assetIds": [
+          "sm-016",
+          "sm-017"
+        ]
+      },
+      {
+        "label": "Villa 1",
+        "route": "/villas/villa-1",
+        "count": 13,
+        "assetIds": [
+          "sm-030",
+          "sm-031",
+          "sm-032",
+          "sm-033",
+          "sm-034",
+          "sm-035",
+          "sm-036",
+          "sm-037",
+          "sm-038",
+          "sm-039",
+          "sm-040",
+          "sm-041",
+          "sm-042"
+        ]
+      },
+      {
+        "label": "Villa 2",
+        "route": "/villas/villa-2",
+        "count": 14,
+        "assetIds": [
+          "sm-043",
+          "sm-044",
+          "sm-045",
+          "sm-046",
+          "sm-047",
+          "sm-048",
+          "sm-049",
+          "sm-050",
+          "sm-051",
+          "sm-052",
+          "sm-053",
+          "sm-054",
+          "sm-055",
+          "sm-056"
+        ]
+      },
+      {
+        "label": "Villa 3",
+        "route": "/villas/villa-3",
+        "count": 9,
+        "assetIds": [
+          "sm-057",
+          "sm-058",
+          "sm-059",
+          "sm-060",
+          "sm-061",
+          "sm-062",
+          "sm-063",
+          "sm-064",
+          "sm-065"
+        ]
+      },
+      {
+        "label": "Villa 4",
+        "route": "/villas/villa-4",
+        "count": 3,
+        "assetIds": [
+          "sm-066",
+          "sm-067",
+          "sm-068"
+        ]
+      },
+      {
+        "label": "Villa 5",
+        "route": "/villas/villa-5",
+        "count": 16,
+        "assetIds": [
+          "sm-069",
+          "sm-070",
+          "sm-071",
+          "sm-072",
+          "sm-073",
+          "sm-074",
+          "sm-075",
+          "sm-076",
+          "sm-077",
+          "sm-078",
+          "sm-079",
+          "sm-080",
+          "sm-081",
+          "sm-082",
+          "sm-083",
+          "sm-084"
+        ]
+      }
+    ],
+    "initialFilter": "Todas",
+    "loadFullImagesOnOpen": true
+  },
+  "roomPages": [
+    {
+      "route": "/habitaciones/sm-1",
+      "label": "Habitación SM 1",
+      "folderRelatedAssetIds": [
+        "sm-018"
+      ],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 1"
+    },
+    {
+      "route": "/habitaciones/sm-2",
+      "label": "Habitación SM 2",
+      "folderRelatedAssetIds": [
+        "sm-018"
+      ],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 2"
+    },
+    {
+      "route": "/habitaciones/sm-3",
+      "label": "Habitación SM 3",
+      "folderRelatedAssetIds": [
+        "sm-021"
+      ],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 3"
+    },
+    {
+      "route": "/habitaciones/sm-5",
+      "label": "Habitación SM 5",
+      "folderRelatedAssetIds": [],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 5"
+    },
+    {
+      "route": "/habitaciones/sm-6",
+      "label": "Habitación SM 6",
+      "folderRelatedAssetIds": [],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 6"
+    },
+    {
+      "route": "/habitaciones/sm-7",
+      "label": "Habitación SM 7",
+      "folderRelatedAssetIds": [],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 7"
+    },
+    {
+      "route": "/habitaciones/sm-8",
+      "label": "Habitación SM 8",
+      "folderRelatedAssetIds": [
+        "sm-019",
+        "sm-022",
+        "sm-023",
+        "sm-024"
+      ],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 8"
+    },
+    {
+      "route": "/habitaciones/sm-9",
+      "label": "Habitación SM 9",
+      "folderRelatedAssetIds": [
+        "sm-019",
+        "sm-024",
+        "sm-025"
+      ],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 9"
+    },
+    {
+      "route": "/habitaciones/sm-10",
+      "label": "Habitación SM 10",
+      "folderRelatedAssetIds": [
+        "sm-019",
+        "sm-020"
+      ],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 10"
+    },
+    {
+      "route": "/habitaciones/sm-11",
+      "label": "Habitación SM 11",
+      "folderRelatedAssetIds": [],
+      "generalExteriorFallbackIds": [
+        "sm-019",
+        "sm-022"
+      ],
+      "photoAttribution": "Exteriores; relación por carpetas recibidas, no interior exclusivo ni identidad de unidad verificada",
+      "ctaTarget": "/contacto",
+      "consultationSelection": "SM 11"
+    }
+  ],
+  "brand": {
+    "reference": "Logo Sister Moon - Temporal.png adjunto el 17/10/2026",
+    "fontIdentification": "No identificada; serif para títulos y sans para lectura son propuesta, no tipografías oficiales",
+    "colors": {
+      "forest": "#173E29",
+      "green": "#4FA65C",
+      "leaf": "#E8F1E4",
+      "cream": "#FAF8F0",
+      "ink": "#20382B",
+      "sun": "#E8D66C",
+      "water": "#217F83"
+    },
+    "assets": [
+      {
+        "id": "sm-026",
+        "asset": "sistermoon/logo-sister-moon-temporal.webp",
+        "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/logo-sister-moon-temporal.webp",
+        "width": 350,
+        "height": 150,
+        "alt": "Logo temporal Hotel Sister Moon",
+        "group": "Marca",
+        "role": "Referencia temporal alternativa; no es foto de galería"
+      },
+      {
+        "id": "sm-027",
+        "asset": "sistermoon/sismoon-full-logo-png.webp",
+        "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/sismoon-full-logo-png.webp",
+        "width": 2172,
+        "height": 724,
+        "alt": "Logo completo Hotel Sister Moon con símbolo ilustrado",
+        "group": "Marca",
+        "role": "Cabecera y pie sobre fondo claro"
+      },
+      {
+        "id": "sm-028",
+        "asset": "sistermoon/sismoon-logo-sin-texto-png.webp",
+        "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/sismoon-logo-sin-texto-png.webp",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Símbolo ilustrado de Sister Moon",
+        "group": "Marca",
+        "role": "Símbolo y favicon"
+      },
+      {
+        "id": "sm-029",
+        "asset": "sistermoon/sismoon-logo-solo-texto.webp",
+        "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/sismoon-logo-solo-texto.webp",
+        "width": 2172,
+        "height": 724,
+        "alt": "Logotipo de texto Hotel Sister Moon",
+        "group": "Marca",
+        "role": "Marca de texto secundaria"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "id": "sm-001",
+      "asset": "sistermoon/area-comun/deck/dji-20260609112805-0116-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/deck/dji-20260609112805-0116-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista aérea del hotel junto a la costa rocosa",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-002",
+      "asset": "sistermoon/area-comun/deck/dji-20260609121350-0131-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/deck/dji-20260609121350-0131-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Deck y palmeras vistos desde arriba",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-003",
+      "asset": "sistermoon/area-comun/deck.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/deck.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Deck con sillas frente al mar",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-004",
+      "asset": "sistermoon/area-comun/entrada.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/entrada.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sendero de entrada a Sister Moon",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-005",
+      "asset": "sistermoon/area-comun/fogata1.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/fogata1.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Área de descanso y fogata junto al mar",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-006",
+      "asset": "sistermoon/area-comun/foto-logo.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/foto-logo.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Entrada con letrero de Sister Moon",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-007",
+      "asset": "sistermoon/area-comun/general/dji-20260609112609-0111-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/general/dji-20260609112609-0111-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Edificios del hotel y piscina junto al mar",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-008",
+      "asset": "sistermoon/area-comun/general/dji-20260609112708-0115-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/general/dji-20260609112708-0115-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista frontal aérea del hotel y el deck",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-009",
+      "asset": "sistermoon/area-comun/general/dji-20260609113048-0117-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/general/dji-20260609113048-0117-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Panorámica de la costa y alojamientos entre vegetación",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-010",
+      "asset": "sistermoon/area-comun/general/dji-20260609120048-0119-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/general/dji-20260609120048-0119-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Hotel y oleaje vistos desde el mar",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-011",
+      "asset": "sistermoon/area-comun/general/dji-20260609121242-0130-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/general/dji-20260609121242-0130-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Panorámica aérea de Sister Moon y la costa",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-012",
+      "asset": "sistermoon/area-comun/teatro-de-olas-1.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/teatro-de-olas-1.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Deck frente al mar entre palmeras",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-013",
+      "asset": "sistermoon/area-comun/teatro-de-olas.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/teatro-de-olas.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Área común frente al mar",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-014",
+      "asset": "sistermoon/area-comun/vista-1.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/vista-1.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sendero costero entre palmeras con una persona",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-015",
+      "asset": "sistermoon/area-comun/vista-2.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/area-comun/vista-2.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Camino hacia el mar con una persona entre palmeras",
+      "group": "Áreas comunes",
+      "primaryRoute": "/experiencias",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-016",
+      "asset": "sistermoon/camp-glamp/dji-20260609121916-0138-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/camp-glamp/dji-20260609121916-0138-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista aérea del área asignada a campamento y glamping",
+      "group": "Glamping",
+      "primaryRoute": "/glamping",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-017",
+      "asset": "sistermoon/camp-glamp/dji-20260609121952-0139-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/camp-glamp/dji-20260609121952-0139-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Piscina y estructuras entre vegetación en el área de glamping",
+      "group": "Glamping",
+      "primaryRoute": "/glamping",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-018",
+      "asset": "sistermoon/habitaciones/1/dji-20260609120404-0121-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/habitaciones/1/dji-20260609120404-0121-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Exterior de edificio de habitaciones entre palmeras",
+      "group": "Habitaciones",
+      "primaryRoute": "/habitaciones",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-019",
+      "asset": "sistermoon/habitaciones/10/dji-20260609120500-0122-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/habitaciones/10/dji-20260609120500-0122-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Conjunto de cabañas entre palmeras",
+      "group": "Habitaciones",
+      "primaryRoute": "/habitaciones",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-020",
+      "asset": "sistermoon/habitaciones/10/dji-20260609120535-0125-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/habitaciones/10/dji-20260609120535-0125-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Cabañas del hotel vistas desde arriba",
+      "group": "Habitaciones",
+      "primaryRoute": "/habitaciones",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-021",
+      "asset": "sistermoon/habitaciones/3/dji-20260609121131-0129-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/habitaciones/3/dji-20260609121131-0129-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Exterior y balcón de edificio de habitaciones",
+      "group": "Habitaciones",
+      "primaryRoute": "/habitaciones",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-022",
+      "asset": "sistermoon/habitaciones/8/dji-20260609120512-0123-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/habitaciones/8/dji-20260609120512-0123-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Cabañas con techos rojizos entre vegetación",
+      "group": "Habitaciones",
+      "primaryRoute": "/habitaciones",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-023",
+      "asset": "sistermoon/habitaciones/8/dji-20260609120741-0126-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/habitaciones/8/dji-20260609120741-0126-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Exterior de cabaña elevada con balcón",
+      "group": "Habitaciones",
+      "primaryRoute": "/habitaciones",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-024",
+      "asset": "sistermoon/habitaciones/8/dji-20260609121050-0128-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/habitaciones/8/dji-20260609121050-0128-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista frontal de cabaña elevada entre palmeras",
+      "group": "Habitaciones",
+      "primaryRoute": "/habitaciones",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-025",
+      "asset": "sistermoon/habitaciones/9/dji-20260609120910-0127-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/habitaciones/9/dji-20260609120910-0127-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Cabaña elevada y balcón entre vegetación",
+      "group": "Habitaciones",
+      "primaryRoute": "/habitaciones",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-030",
+      "asset": "sistermoon/villas/villa-1/cocina.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/cocina.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Cocina con refrigerador y barra",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-031",
+      "asset": "sistermoon/villas/villa-1/dji-20260609121421-0132-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dji-20260609121421-0132-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista del alojamiento y costa desde el mar",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-032",
+      "asset": "sistermoon/villas/villa-1/dji-20260609121441-0133-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dji-20260609121441-0133-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Fachada de alojamiento junto a la costa",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-033",
+      "asset": "sistermoon/villas/villa-1/dji-20260609121516-0134-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dji-20260609121516-0134-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista exterior del alojamiento entre palmeras",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-034",
+      "asset": "sistermoon/villas/villa-1/dsc05810.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05810.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sala interior con sofá y cortinas",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-035",
+      "asset": "sistermoon/villas/villa-1/dsc05812.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05812.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Dormitorio con cama y aire acondicionado",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-036",
+      "asset": "sistermoon/villas/villa-1/dsc05813.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05813.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Cocina con barra y refrigerador",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-037",
+      "asset": "sistermoon/villas/villa-1/dsc05815.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05815.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sala de estar con sofá y mesa",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-038",
+      "asset": "sistermoon/villas/villa-1/dsc05817.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05817.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Terraza cubierta con hamaca",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-039",
+      "asset": "sistermoon/villas/villa-1/dsc05819.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05819.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Terraza con sillas y espacio de BBQ",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-040",
+      "asset": "sistermoon/villas/villa-1/dsc05820.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05820.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Exterior de alojamiento con terraza cubierta",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-041",
+      "asset": "sistermoon/villas/villa-1/dsc05821.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05821.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Fachada y hamaca bajo terraza cubierta",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-042",
+      "asset": "sistermoon/villas/villa-1/dsc05822.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-1/dsc05822.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Deck sobre la orilla del mar",
+      "group": "Villa 1",
+      "primaryRoute": "/villas/villa-1",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-043",
+      "asset": "sistermoon/villas/villa-2/dji-20260609121642-0135-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dji-20260609121642-0135-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista aérea de villa con piscina y terraza",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-044",
+      "asset": "sistermoon/villas/villa-2/dsc05825.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05825.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Interior abierto con sala y camas",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-045",
+      "asset": "sistermoon/villas/villa-2/dsc05826.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05826.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sofá y mesa en espacio interior",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-046",
+      "asset": "sistermoon/villas/villa-2/dsc05827.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05827.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Camas en interior de madera",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-047",
+      "asset": "sistermoon/villas/villa-2/dsc05828.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05828.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sala y acceso a cocina",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-048",
+      "asset": "sistermoon/villas/villa-2/dsc05829.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05829.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Cocina con fregadero y refrigerador",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-049",
+      "asset": "sistermoon/villas/villa-2/dsc05832.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05832.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Área de cocina con estufa",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-050",
+      "asset": "sistermoon/villas/villa-2/dsc05833.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05833.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Mesa alta con sillas en interior",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-051",
+      "asset": "sistermoon/villas/villa-2/dsc05834.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05834.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Camas junto a ventanas y salida a terraza",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-052",
+      "asset": "sistermoon/villas/villa-2/dsc05835.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05835.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Mesa bajo terraza cubierta frente al mar",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-053",
+      "asset": "sistermoon/villas/villa-2/dsc05836.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05836.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Comedor exterior entre palmeras",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-054",
+      "asset": "sistermoon/villas/villa-2/dsc05837.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05837.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Terraza con hamaca y sillas",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-055",
+      "asset": "sistermoon/villas/villa-2/dsc05838.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05838.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Piscina junto a terraza de la villa",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-056",
+      "asset": "sistermoon/villas/villa-2/dsc05839.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-2/dsc05839.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Piscina y fachada de la villa",
+      "group": "Villa 2",
+      "primaryRoute": "/villas/villa-2",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-057",
+      "asset": "sistermoon/villas/villa-3/dsc05783.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05783.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Pasillo exterior azul con sillas",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-058",
+      "asset": "sistermoon/villas/villa-3/dsc05786.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05786.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Piscina con deck junto a estructura azul",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-059",
+      "asset": "sistermoon/villas/villa-3/dsc05787.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05787.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Balcón azul con vista al mar",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-060",
+      "asset": "sistermoon/villas/villa-3/dsc05788.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05788.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Terraza azul con sillas frente al mar",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-061",
+      "asset": "sistermoon/villas/villa-3/dsc05789.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05789.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Piscina y zona de descanso con hamaca",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-062",
+      "asset": "sistermoon/villas/villa-3/dsc05792.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05792.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Cocina con barra y refrigerador",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-063",
+      "asset": "sistermoon/villas/villa-3/dsc05796.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05796.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sala de estar con ventanas y puertas azules",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-064",
+      "asset": "sistermoon/villas/villa-3/dsc05797.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05797.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Comedor interior junto a balcón",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-065",
+      "asset": "sistermoon/villas/villa-3/dsc05798.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-3/dsc05798.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Cocina abierta con barra",
+      "group": "Villa 3",
+      "primaryRoute": "/villas/villa-3",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-066",
+      "asset": "sistermoon/villas/villa-4/dji-20260609112411-0108-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-4/dji-20260609112411-0108-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista aérea de villa azul con piscina",
+      "group": "Villa 4",
+      "primaryRoute": "/villas/villa-4",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-067",
+      "asset": "sistermoon/villas/villa-4/dji-20260609112431-0109-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-4/dji-20260609112431-0109-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Exterior de villa azul y piscina entre árboles",
+      "group": "Villa 4",
+      "primaryRoute": "/villas/villa-4",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-068",
+      "asset": "sistermoon/villas/villa-4/dji-20260609112512-0110-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-4/dji-20260609112512-0110-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista lateral de villa azul con piscina",
+      "group": "Villa 4",
+      "primaryRoute": "/villas/villa-4",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-069",
+      "asset": "sistermoon/villas/villa-5/dji-20260609111834-0105-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dji-20260609111834-0105-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Vista cenital de villa y piscina",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-070",
+      "asset": "sistermoon/villas/villa-5/dji-20260609111919-0106-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dji-20260609111919-0106-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Piscina junto a villa vista desde arriba",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-071",
+      "asset": "sistermoon/villas/villa-5/dji-20260609112145-0107-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dji-20260609112145-0107-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Villa de dos niveles entre palmeras",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-072",
+      "asset": "sistermoon/villas/villa-5/dji-20260609113203-0118-d.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dji-20260609113203-0118-d.webp",
+      "width": 2400,
+      "height": 1350,
+      "alt": "Fachada y balcones de villa",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-073",
+      "asset": "sistermoon/villas/villa-5/dsc05768.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05768.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Cocina con estufa y refrigerador",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-074",
+      "asset": "sistermoon/villas/villa-5/dsc05769.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05769.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Cocina equipada y alacenas",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-075",
+      "asset": "sistermoon/villas/villa-5/dsc05770.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05770.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Cocina con barra de desayuno",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-076",
+      "asset": "sistermoon/villas/villa-5/dsc05771.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05771.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sala y comedor con salida al balcón",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-077",
+      "asset": "sistermoon/villas/villa-5/dsc05772.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05772.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Vista longitudinal de sala y comedor",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-078",
+      "asset": "sistermoon/villas/villa-5/dsc05773.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05773.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sala con sofá junto al balcón",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-079",
+      "asset": "sistermoon/villas/villa-5/dsc05774.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05774.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Comedor y sofá en sala luminosa",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-080",
+      "asset": "sistermoon/villas/villa-5/dsc05775.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05775.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Balcón con sillas frente al mar",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-081",
+      "asset": "sistermoon/villas/villa-5/dsc05778.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05778.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Terraza inferior con hamaca y escaleras",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-082",
+      "asset": "sistermoon/villas/villa-5/dsc05779.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05779.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Hamaca bajo terraza de madera",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-083",
+      "asset": "sistermoon/villas/villa-5/dsc05780.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05780.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Sillas en balcón con vista al mar",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    },
+    {
+      "id": "sm-084",
+      "asset": "sistermoon/villas/villa-5/dsc05781.webp",
+      "imagekit_url": "https://ik.imagekit.io/3hhgoodtd/sistermoon/villas/villa-5/dsc05781.webp",
+      "width": 2400,
+      "height": 1600,
+      "alt": "Área exterior de BBQ con mesa y bancas",
+      "group": "Villa 5",
+      "primaryRoute": "/villas/villa-5",
+      "galleryRoute": "/galeria"
+    }
+  ],
+  "editorialSelection": {
+    "brand.full": "sm-027",
+    "brand.symbol": "sm-028",
+    "brand.wordmark": "sm-029",
+    "home.hero": "sm-011",
+    "home.heroAlternative": "sm-003",
+    "home.island": "sm-009",
+    "home.rooms": "sm-022",
+    "home.villas": "sm-071",
+    "home.glamping": "sm-017",
+    "home.slowTime": "sm-013",
+    "home.closing": "sm-003",
+    "villa1.cover": "sm-040",
+    "villa2.cover": "sm-055",
+    "villa3.cover": "sm-058",
+    "villa4.cover": "sm-067",
+    "villa5.cover": "sm-071"
+  },
+  "verification": {
+    "urlVerificationDate": "2026-10-15",
+    "method": "84 HTTP HEAD, 200 y tipo image; no se revalidaron en esta ampliación",
+    "coverageValidationDate": "2026-10-17",
+    "uniquePhotoCount": 80,
+    "brandAssetCount": 4
+  },
+  "restrictions": [
+    "No stock ni imágenes generadas.",
+    "No importar los logos como fotos de alojamiento.",
+    "No intercambiar Villa 3/4 por similitud visual; validar atribución.",
+    "Mostrar todos los IDs en galería, cargar derivados responsivos bajo demanda.",
+    "No presentar capacidad o disponibilidad de habitaciones como confirmada."
+  ]
+}

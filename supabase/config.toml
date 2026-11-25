@@ -1,0 +1,3 @@
+[functions.lobby-proxy]
+verify_jwt = true
+entrypoint = "./functions/lobby-proxy/index.ts"

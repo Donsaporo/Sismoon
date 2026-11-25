@@ -52,6 +52,26 @@ function getSupabase() {
 }
 
 // ── Lobby API helpers ──
+let lobbyHttpClient: Deno.HttpClient | undefined;
+
+function lobbyFetch(url: string, init: RequestInit): Promise<Response> {
+  if (!lobbyHttpClient) {
+    const proxySecret = Deno.env.get("FIXIE_URL");
+    if (!proxySecret) throw new Error("Lobby outbound proxy not configured.");
+    const proxyUrl = new URL(proxySecret);
+    const basicAuth = {
+      username: decodeURIComponent(proxyUrl.username),
+      password: decodeURIComponent(proxyUrl.password),
+    };
+    proxyUrl.username = "";
+    proxyUrl.password = "";
+    lobbyHttpClient = Deno.createHttpClient({
+      proxy: { url: proxyUrl.toString(), basicAuth },
+    });
+  }
+  return fetch(url, { ...init, client: lobbyHttpClient });
+}
+
 function getToken(): string {
   const token = Deno.env.get("pms_token_lobby");
   if (!token) throw new Error("Lobby PMS token not configured.");
@@ -68,7 +88,7 @@ function lobbyUrl(path: string, params: Record<string, string | number | undefin
 }
 
 async function lobbyGet<T>(path: string, params: Record<string, string | number | undefined> = {}): Promise<T> {
-  const resp = await fetch(lobbyUrl(path, params), {
+  const resp = await lobbyFetch(lobbyUrl(path, params), {
     method: "GET",
     headers: { "Content-Type": "application/json" },
   });
@@ -81,7 +101,7 @@ async function lobbyGet<T>(path: string, params: Record<string, string | number 
 
 async function lobbyPost<T>(path: string, body: Record<string, unknown>): Promise<T> {
   const token = getToken();
-  const resp = await fetch(`${LOBBY_API_BASE}${path}`, {
+  const resp = await lobbyFetch(`${LOBBY_API_BASE}${path}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ...body, api_token: token }),
@@ -627,7 +647,7 @@ async function handleCreate(
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 30000);
     const token = getToken();
-    const resp = await fetch(`${LOBBY_API_BASE}/api/v1/bookings`, {
+    const resp = await lobbyFetch(`${LOBBY_API_BASE}/api/v1/bookings`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ ...bookingBody, api_token: token }),

@@ -857,7 +857,28 @@ Deno.serve(async (req: Request) => {
       return new Response(JSON.stringify(result), { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
 
-    // search, quote, create need dates
+    // create uses dates/occupancy from the stored quote, not from the request
+    if (body.operation === "create") {
+      if (!body.quoteToken) {
+        return new Response(JSON.stringify({ error: "Falta el token de cotización." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      }
+      if (!body.guest?.firstName?.trim() || !body.guest?.lastName?.trim()) {
+        return new Response(JSON.stringify({ error: "Falta el nombre del titular." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      }
+      if (!body.guest?.email?.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.guest.email)) {
+        return new Response(JSON.stringify({ error: "Falta un correo válido." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      }
+      if (!body.guest?.phone?.trim()) {
+        return new Response(JSON.stringify({ error: "Falta un teléfono de contacto." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      }
+      if (!body.idempotencyKey) {
+        return new Response(JSON.stringify({ error: "Falta la clave de idempotencia." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+      }
+      const result = await handleCreate(body.quoteToken, body.guest, body.idempotencyKey);
+      return new Response(JSON.stringify(result), { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+    }
+
+    // search and quote need dates from the request
     const dateErrorss = validateDates(body.checkIn, body.checkOut);
     if (dateErrorss.length > 0) {
       return new Response(JSON.stringify({ error: dateErrorss.join(" "), validationErrors: dateErrorss }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
@@ -877,26 +898,6 @@ Deno.serve(async (req: Request) => {
         return new Response(JSON.stringify({ error: "Alojamiento no reconocido." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
       }
       const result = await handleQuote(body.checkIn!, body.checkOut!, body.adults, body.childrenAges ?? [], body.accommodationId, body.planId ?? null);
-      return new Response(JSON.stringify(result), { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } });
-    }
-
-    if (body.operation === "create") {
-      if (!body.quoteToken) {
-        return new Response(JSON.stringify({ error: "Falta el token de cotización." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
-      }
-      if (!body.guest?.firstName?.trim() || !body.guest?.lastName?.trim()) {
-        return new Response(JSON.stringify({ error: "Falta el nombre del titular." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
-      }
-      if (!body.guest?.email?.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.guest.email)) {
-        return new Response(JSON.stringify({ error: "Falta un correo válido." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
-      }
-      if (!body.guest?.phone?.trim()) {
-        return new Response(JSON.stringify({ error: "Falta un teléfono de contacto." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
-      }
-      if (!body.idempotencyKey) {
-        return new Response(JSON.stringify({ error: "Falta la clave de idempotencia." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
-      }
-      const result = await handleCreate(body.quoteToken, body.guest, body.idempotencyKey);
       return new Response(JSON.stringify(result), { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
 

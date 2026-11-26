@@ -67,7 +67,7 @@ export default function Home() {
         <div className="home-experiences-blocks">
           <div className="home-exp-block">
             <h3>Tours</h3>
-            <p>¿Te provoca salir a conocer? Hay un tour en lancha por las islas. Revisa las opciones y cómo coordinar el paseo con el operador.</p>
+            <p>Descubre los mejores tours de Colón con Sister Moon. Consulta las opciones para conocer Venas Azules y disfrutar el Caribe.</p>
             <button className="ghost-button" onClick={() => navigate('/experiencias#tours')}>Ver tours <ArrowRight size={15} /></button>
           </div>
           <div className="home-exp-block">

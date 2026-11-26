@@ -174,17 +174,22 @@ export const photos: Photo[] = rawPhotos.map(([id, asset, width, height, alt, gr
 
 export const photosById: Record<string, Photo> = Object.fromEntries(photos.map((photo) => [photo.id, photo]));
 
+export const publicGalleryIds: string[] = [];
+export const publicGalleryPhotos = publicGalleryIds
+  .map((id) => photosById[id])
+  .filter((photo): photo is Photo => Boolean(photo));
+
 export const galleryGroups: { label: string; group: PhotoGroup | 'Todas'; count: number }[] = [
-  { label: 'Todas', group: 'Todas', count: photos.length },
-  { label: 'Hotel y entorno', group: 'Áreas comunes', count: photos.filter((p) => p.group === 'Áreas comunes').length },
-  { label: 'Habitaciones', group: 'Habitaciones', count: photos.filter((p) => p.group === 'Habitaciones').length },
-  { label: 'Glamping', group: 'Glamping', count: photos.filter((p) => p.group === 'Glamping').length },
-  { label: 'Villa 1', group: 'Villa 1', count: photos.filter((p) => p.group === 'Villa 1').length },
-  { label: 'Villa 2', group: 'Villa 2', count: photos.filter((p) => p.group === 'Villa 2').length },
-  { label: 'Villa 3', group: 'Villa 3', count: photos.filter((p) => p.group === 'Villa 3').length },
-  { label: 'Villa 4', group: 'Villa 4', count: photos.filter((p) => p.group === 'Villa 4').length },
-  { label: 'Villa 5', group: 'Villa 5', count: photos.filter((p) => p.group === 'Villa 5').length },
-  { label: 'Restaurante', group: 'Restaurante', count: photos.filter((p) => p.group === 'Restaurante').length },
+  { label: 'Todas', group: 'Todas', count: publicGalleryPhotos.length },
+  { label: 'Hotel y entorno', group: 'Áreas comunes', count: publicGalleryPhotos.filter((p) => p.group === 'Áreas comunes').length },
+  { label: 'Habitaciones', group: 'Habitaciones', count: publicGalleryPhotos.filter((p) => p.group === 'Habitaciones').length },
+  { label: 'Glamping', group: 'Glamping', count: publicGalleryPhotos.filter((p) => p.group === 'Glamping').length },
+  { label: 'Villa 1', group: 'Villa 1', count: publicGalleryPhotos.filter((p) => p.group === 'Villa 1').length },
+  { label: 'Villa 2', group: 'Villa 2', count: publicGalleryPhotos.filter((p) => p.group === 'Villa 2').length },
+  { label: 'Villa 3', group: 'Villa 3', count: publicGalleryPhotos.filter((p) => p.group === 'Villa 3').length },
+  { label: 'Villa 4', group: 'Villa 4', count: publicGalleryPhotos.filter((p) => p.group === 'Villa 4').length },
+  { label: 'Villa 5', group: 'Villa 5', count: publicGalleryPhotos.filter((p) => p.group === 'Villa 5').length },
+  { label: 'Restaurante', group: 'Restaurante', count: publicGalleryPhotos.filter((p) => p.group === 'Restaurante').length },
 ];
 
 export const brand = {
@@ -385,6 +390,6 @@ export const faqs = [
 export const homeGalleryIds = ['sm-011', 'sm-003', 'sm-071', 'sm-040', 'sm-022'];
 
 export function photosForGroup(group: PhotoGroup | 'Todas'): Photo[] {
-  if (group === 'Todas') return photos;
-  return photos.filter((photo) => photo.group === group);
+  if (group === 'Todas') return publicGalleryPhotos;
+  return publicGalleryPhotos.filter((photo) => photo.group === group);
 }
